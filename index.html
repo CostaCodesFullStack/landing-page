@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Aurora - A Melhor Experiência em Cafés</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">Café Aurora</div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#testimonials">Depoimentos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">O Melhor Café da Cidade</h1>
+            <p class="hero-subtitle">Experimente nossos cafés artesanais preparados com grãos selecionados</p>
+            <button class="hero-button">Conheça Nosso Cardápio</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Nós</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Desde 2020, o Café Aurora traz a melhor experiência em cafés especiais para você. Nossos grãos são cuidadosamente selecionados e torrados artesanalmente.</p>
+                    <p>Acreditamos que cada xícara conta uma história, e estamos aqui para criar momentos memoráveis com você.</p>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder-img">Imagem da Cafeteria</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title">Nosso Cardápio</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-image">☕</div>
+                    <h3>Espresso Clássico</h3>
+                    <p>Café intenso e aromático</p>
+                    <span class="price">R$ 8,00</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image">☕</div>
+                    <h3>Cappuccino Cremoso</h3>
+                    <p>Perfeito equilíbrio entre café e leite</p>
+                    <span class="price">R$ 12,00</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image">☕</div>
+                    <h3>Latte Especial</h3>
+                    <p>Suave e delicioso</p>
+                    <span class="price">R$ 14,00</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image">☕</div>
+                    <h3>Cold Brew</h3>
+                    <p>Refrescante e intenso</p>
+                    <span class="price">R$ 15,00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">O Que Dizem Nossos Clientes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"O melhor café que já experimentei! O ambiente é acolhedor e o atendimento impecável."</p>
+                    <p class="testimonial-author">- Maria Silva</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Meu lugar favorito para trabalhar. Wifi rápido e café excelente!"</p>
+                    <p class="testimonial-author">- João Santos</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Qualidade excepcional. Voltarei sempre!"</p>
+                    <p class="testimonial-author">- Ana Costa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Seu Nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Seu Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Café Aurora. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">WhatsApp</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
